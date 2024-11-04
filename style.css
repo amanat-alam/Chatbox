@@ -1,0 +1,250 @@
+  * {
+  margin: 0;
+  padding: 0;
+  }
+  
+  
+  body {
+    margin: 20px auto;
+    font-family: "Lato";
+    font-weight: 300;
+    height: 100%;
+    weight: 100%;
+    text-align: center;
+    background-color: #58088a;
+  }
+  
+  
+  h1 {
+    text-align: center;
+  }
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+  @media screen and (min-width: 601px) {
+  h1 {
+  font-size: 80px;
+  }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+  h1 {
+  font-size: 35px;
+  }
+  }
+  
+  
+  p {
+    text-align: center;
+  }
+  
+  
+  #tonoma {
+    text-align: right;
+  }
+  
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+  @media screen and (min-width: 601px) {
+  p, #tonoma {
+  font-size: 30px;
+  }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+  p, #tonoma {
+  font-size: 18px;
+  }
+  }
+  
+  
+  
+  textarea {
+  resize: none;
+  }
+  
+  
+  audio {
+  width:90%;
+  border-radius:30px;
+  border:1px solid #58088a;
+  }
+  
+  
+  
+  #submitmsg, 
+  #enter {
+    background-color: #58088a;
+    color: white;
+    padding: 15px 24px;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 0 4px #999;
+  }
+  
+  
+  #submitmsg:hover {background-color: #3e8b8e;}
+  #submitmsg:active {
+  background-color: #3e8b8e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+  
+  #enter:hover {background-color: #3e8b8e;}
+  #enter:active {
+  background-color: #3e8b8e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+
+
+  
+   
+  form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+   
+  form label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+   
+  input {
+    font-family: "Lato";
+  }
+   
+  a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+   
+  a:hover {
+    text-decoration: underline;
+  }
+   
+  #wrapper-2,
+  #loginform {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: #1e1e1e;
+    color: #ffffff;
+    height: auto;
+    border-top: 1px solid #212121;
+  }
+   
+  #loginform {
+    padding-top: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+   
+  #loginform p {
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #58088a;
+  }
+   
+  #chatbox {
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 25px;
+    padding: 15px;
+    background: #1e1e1e;
+    color:#ffffff;
+    height: auto;
+    border-top: 1px solid #a7a7a7;
+    border-bottom: 4px solid #a7a7a7;
+  }
+  
+  
+  button {
+  background-color: #58088a;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 30px;
+  }
+  
+  button:hover {background-color: #3e8b8e;}
+  button:active {
+  background-color: #3e8b8e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+  
+  
+   
+  #usermsg {
+    flex: 1;
+    border-radius: 30px;
+    padding: 15px 14px;
+    border: 1px solid #58088a;
+    background: #1e1e1e;
+    color: #ffffff;
+  }
+   
+  #name {
+    border-radius: 30px;
+    border: 1px solid #58088a;
+    padding: 2px 8px;
+  }
+   
+  
+  
+   
+  .error {
+    color: #fd9191;
+  }
+   
+  #menu {
+    padding: 15px 25px;
+    display: flex;
+  }
+   
+  #menu p.welcome {
+    flex: 1;
+  }
+   
+  a#exit {
+    color: white;
+    background: #f87979;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+   
+  .msgln {
+    margin: 0 0 5px 0;
+  }
+   
+  .msgln span.left-info {
+    color: #000000;
+  }
+   
+  .msgln span.chat-time {
+    color: #666;
+    font-size: 60%;
+    vertical-align: super;
+  }
+   
+  .msgln b.user-name, .msgln b.user-name-left {
+    font-weight: bold;
+    background: #23953e;
+    color: white;
+    padding: 2px 4px;
+    font-size: 90%;
+    border-radius: 4px;
+    margin: 0 5px 0 0;
+  }
+   
+  .msgln b.user-name-left {
+    background: rgb(255, 154, 118);
+  }
+
+  #message_form {
+    background: #1e1e1e;
+    color: #ffffff;
+  }
